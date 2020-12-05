@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:layout_marginTop="15dp"
+
+    tools:context=".ServoControlMain" >
+
+
+<!--   SERVO 1 -->
+<TextView
+
+    android:id="@+id/servo1TextView"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="@string/servo1"
+    android:textSize="15dp"
+    android:textColor="@color/black"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+
+    />
+    <!--   SERVO 1 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPEN"
+        android:id="@+id/servo1ButtonOpen"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/servo1TextView"
+        android:padding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        />
+
+    <!--   SERVO 1 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ClOSE"
+        android:id="@+id/servo1ButtonClose"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/servo1TextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentEnd="true"
+
+
+        />
+    <!--   SERVO 2 -->
+    <TextView
+
+        android:id="@+id/servo2TextView"
+        android:layout_below="@+id/servo1ButtonClose"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/servo2"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+
+        />
+    <!--   SERVO 2 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRONT"
+        android:id="@+id/servo2ButtonUp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/servo2TextView"
+        android:padding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        />
+    <!--   SERVO 2 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/servo2ButtonClose"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/servo2TextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentEnd="true"
+
+        />
+    <!--   SERVO 3 -->
+    <TextView
+
+        android:id="@+id/servo3TextView"
+        android:layout_below="@+id/servo2ButtonClose"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/servo3"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+
+
+        />
+    <!--   SERVO 3 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UP"
+        android:id="@+id/servo3ButtonUp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/servo3TextView"
+        android:padding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+
+        />
+    <!--   SERVO 3 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOWN"
+        android:id="@+id/servo3ButtonDown"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/servo3TextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentEnd="true"
+        />
+    <!--   SERVO 4 -->
+    <TextView
+
+        android:id="@+id/servo4TextView"
+        android:layout_below="@+id/servo3ButtonDown"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/servo4"
+        android:textSize="15dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+    <!--   SERVO 4 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RIGHT"
+        android:id="@+id/servo4ButtonLeft"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/servo4TextView"
+        android:padding="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentEnd="true"
+        />
+    <!--   SERVO 4 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEFT"
+        android:id="@+id/servo4ButtonRight"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/servo2ButtonUp"
+        android:layout_below="@+id/servo4TextView"
+        android:padding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect"
+        android:textColor="@color/black"
+        android:id="@+id/disconnectButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

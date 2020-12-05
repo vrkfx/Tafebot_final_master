@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TAFEBOT</string>
+
+<!--    bluetooth_conn.xml   -->
+    <string name="pair">Get Paired Devices</string>
+
+<!--    servo_control.xml    -->
+    <string name="servo1"> Servo 1 (Gripper) </string>
+    <string name="servo2"> Servo 2 (Left Servo)</string>
+    <string name="servo3"> Servo 3 (Right Servo) </string>
+    <string name="servo4"> Servo 4 (Bottom Servo)</string>
+
+
+    <string name="disconnect"> Disconnect </string>
+
+
+
+
+
+
+</resources>
