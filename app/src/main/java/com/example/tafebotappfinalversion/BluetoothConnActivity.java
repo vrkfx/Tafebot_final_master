@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Set;
-
+@SuppressWarnings("unchecked")
 public class BluetoothConnActivity extends AppCompatActivity {
 
     Button btnPaired;

@@ -17,6 +17,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.io.IOException;
 import java.util.UUID;
 
+@SuppressWarnings("unchecked")
+
 public class ServoControlMain extends AppCompatActivity {
 
     Button servo1Btn1, servo1Btn2, servo2Btn1, servo2Btn2, servo3Btn1, servo3Btn2, servo4Btn1, servo4Btn2, disconnect;
