@@ -98,7 +98,7 @@ public class BluetoothConnActivity extends AppCompatActivity {
             Intent i = new Intent(BluetoothConnActivity.this, ServoControlMain.class);
 
             //Change the activity.
-            i.putExtra(EXTRA_ADDRESS, address); //this will be received at ledControl (class) Activity
+            i.putExtra(EXTRA_ADDRESS, address); //this will be received at ServoControlMain (class) Activity
             startActivity(i);
         }
     };
